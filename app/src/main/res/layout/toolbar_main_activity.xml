@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:layout_scrollFlags="scroll|enterAlways"
+    android:animateLayoutChanges="false"
+    app:layout_collapseMode="pin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/image_home_details_header_back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_gravity="start"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView_homework_details_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:hint=" Mridul Malviya "
+            android:textColor="@color/colorPrimaryDark" />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>
